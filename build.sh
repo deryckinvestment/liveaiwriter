@@ -12,3 +12,6 @@ pip3 install openai
 
 # Install Gunicorn
 pip3 install gunicorn
+
+# Start Gunicorn server
+gunicorn app:app
