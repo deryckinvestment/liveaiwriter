@@ -139,4 +139,4 @@ def index():
     return render_template("form.html", advert=advert_html, consultants=consultant_contact_details.keys())
 
 if __name__ == "__main__":
-    app.run(debug=True, port=0.0.0.0)
+    app.run(debug=False, port=0.0.0.0)
